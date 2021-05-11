@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
 
@@ -20,21 +20,30 @@
   <body>
     <div class="container">
       <div class="header">
-        <img src="images/image-header-mobile.jpg" class="header-img" />
+        <img src="images/image-header-mobile.jpg" class="mobile-img" />
+        <img src="images/image-header-desktop.jpg" class="desktop-img" />
       </div>
-      <h1>
-        Get <span class="accent">insights</span> that help your business grow.
-      </h1>
-      <p>
-        Discover the benefits of data analytics and make better decisions
-        regarding revenue, customer experience, and overall efficiency.
-      </p>
-      <p class="card-heading">10k+</p>
-      <p class="card-contents">companies</p>
-      <p class="card-heading">314</p>
-      <p class="card-contents">templates</p>
-      <p class="card-heading">12M+</p>
-      <p class="card-contents">queries</p>
+      <div class="info">
+        <h1>
+          Get <span class="accent">insights</span> that help your business grow.
+        </h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="card">
+          <h4 class="card-heading">10k+</h4>
+          <span class="card-contents">companies</span>
+        </div>
+        <div class="card">
+          <h4 class="card-heading">314</h4>
+          <span class="card-contents">templates</span>
+        </div>
+        <div class="card">
+          <h4 class="card-heading">12M+</h4>
+          <span class="card-contents">queries</span>
+        </div>
+      </div>
 
       <div class="attribution">
         Challenge by
